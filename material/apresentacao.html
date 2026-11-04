@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oficina Golpes Digitais</title>
+<style>
+  :root { --bg:#0f2742; --fg:#ffffff; --acc:#f6c445; --muted:#c9d6e3; --ok:#5fd38d; --bad:#ff7a7a; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg); font-family:Arial, Helvetica, sans-serif; }
+  .slide { display:none; height:100vh; padding:6vh 8vw; flex-direction:column; justify-content:center; }
+  .slide.ativo { display:flex; }
+  h1 { font-size:6vh; margin:0 0 3vh; color:var(--acc); }
+  h2 { font-size:5vh; margin:0 0 3vh; color:var(--acc); }
+  p, li { font-size:3.4vh; line-height:1.45; }
+  li { margin-bottom:1.4vh; }
+  .sub { color:var(--muted); font-size:3vh; }
+  .card { background:rgba(255,255,255,.08); border-left:6px solid var(--acc); padding:2.5vh 3vw; border-radius:8px; margin:1vh 0; }
+  .ok { color:var(--ok); font-weight:bold; }
+  .bad { color:var(--bad); font-weight:bold; }
+  .cols { display:grid; grid-template-columns:1fr 1fr; gap:3vw; }
+  .msg { background:#1f3b5c; border-radius:14px; padding:2vh 2vw; font-size:3vh; max-width:60vw; margin:1vh 0; }
+  .nav { position:fixed; bottom:2vh; right:3vw; color:var(--muted); font-size:2.2vh; }
+  .big { font-size:9vh; font-weight:bold; color:var(--acc); }
+</style>
+</head>
+<body>
+
+<section class="slide">
+  <h1>Não caia nessa!</h1>
+  <p>Oficina de prevenção a golpes digitais</p>
+  <p class="sub">Atividade Extensionista II · CST em Ciência de Dados · UNINTER</p>
+</section>
+
+<section class="slide">
+  <h2>Antes de começar</h2>
+  <div class="card"><p>Responda ao <b>questionário PRÉ</b> (5 minutos).</p></div>
+  <p>Ele é anônimo: use só o seu código (P01, P02...).<br>No final, você responde ao mesmo questionário para medirmos o que aprendemos.</p>
+</section>
+
+<section class="slide">
+  <h2>Por que falar disso?</h2>
+  <ul>
+    <li>Os golpes chegam por <b>SMS, WhatsApp, e-mail, ligação e redes sociais</b>.</li>
+    <li>Eles usam <b>urgência</b>, <b>medo</b> ou <b>vantagem</b> para fazer você agir sem pensar.</li>
+    <li>Qualquer pessoa pode cair, até quem entende de tecnologia.</li>
+  </ul>
+  <div class="card"><p>Regra de ouro: <b>pare, desconfie e confirme por outro canal.</b></p></div>
+</section>
+
+<section class="slide">
+  <h2>Golpe 1: SMS e link falso</h2>
+  <div class="msg">"Seu CPF será bloqueado hoje. Regularize em: bit.ly/regulariza-cpf"</div>
+  <ul>
+    <li><span class="bad">Sinais:</span> urgência, link encurtado, endereço estranho.</li>
+    <li><span class="ok">Faça:</span> abra o app ou o site oficial digitando o endereço você mesmo.</li>
+    <li>Confira as letras: <b>rnercadolivre</b> ≠ <b>mercadolivre</b>.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2>Golpe 2: "parente" pedindo Pix</h2>
+  <div class="msg">"Oi, troquei de número! Preciso de um Pix urgente, depois te explico."</div>
+  <ul>
+    <li><span class="bad">Sinais:</span> número novo, pressa, pedido de dinheiro.</li>
+    <li><span class="ok">Faça:</span> ligue para o número <b>antigo</b> ou fale com a pessoa por voz.</li>
+    <li>Combine com a família uma <b>palavra-chave</b> para emergências.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2>Golpe 3: código do WhatsApp</h2>
+  <div class="msg">"Te mandei um código de 6 dígitos por engano, pode me passar?"</div>
+  <ul>
+    <li>Esse código serve para <b>colocar o seu WhatsApp em outro celular</b>.</li>
+    <li><span class="ok">Faça:</span> nunca repasse o código e ative a <b>verificação em duas etapas</b>:<br>
+      Configurações → Conta → Confirmação em duas etapas.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2>Golpe 4: falso suporte do banco</h2>
+  <ul>
+    <li>Alguém liga dizendo ser do banco e pede um código, uma senha ou que você instale um app.</li>
+    <li><span class="bad">O banco nunca pede</span> senha, código por SMS ou transferência para "conta segura".</li>
+    <li><span class="ok">Faça:</span> desligue e ligue você mesmo para o número que está no cartão.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2>Golpe 5: loja falsa</h2>
+  <div class="cols">
+    <div>
+      <p class="bad">Sinais de golpe</p>
+      <ul>
+        <li>Preço muito abaixo do normal</li>
+        <li>Só aceita Pix para pessoa física</li>
+        <li>Perfil novo e comentários bloqueados</li>
+      </ul>
+    </div>
+    <div>
+      <p class="ok">Como se proteger</p>
+      <ul>
+        <li>Pesquise a loja no Reclame Aqui</li>
+        <li>Prefira cartão ou um site conhecido</li>
+        <li>Desconfie quando é "bom demais"</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Proteja suas contas</h2>
+  <ul>
+    <li><b>Senha forte</b> é uma frase longa: <i>cavalo-azul-pipoca-janela</i></li>
+    <li>Use <b>uma senha diferente</b> para cada serviço importante.</li>
+    <li>Ative a <b>verificação em duas etapas (2FA)</b> no e-mail, no WhatsApp, no Instagram e no banco.</li>
+    <li>Em <b>Wi-Fi público</b>, não acesse o banco nem digite senhas.</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <h2>Caí num golpe. E agora?</h2>
+  <ol>
+    <li>Avise o <b>banco imediatamente</b> e peça a contestação pelo <b>MED</b> (Mecanismo Especial de Devolução do Pix).</li>
+    <li>Troque as senhas e ative a 2FA.</li>
+    <li>Registre um <b>boletim de ocorrência</b> (pode ser pela delegacia online do seu estado).</li>
+    <li>Avise os contatos, se a sua conta foi clonada.</li>
+  </ol>
+</section>
+
+<section class="slide">
+  <h2>Hora da prática</h2>
+  <p>Em duplas: o mediador mostra mensagens, e vocês dizem se são <span class="ok">REAL</span> ou <span class="bad">GOLPE</span> e por quê.</p>
+  <p class="sub">Dica: procure urgência, links estranhos, pedidos de código, senha ou dinheiro.</p>
+</section>
+
+<section class="slide">
+  <h2>Para finalizar</h2>
+  <div class="card"><p>Responda ao <b>questionário PÓS</b>, com o mesmo código do início.</p></div>
+  <p class="big">Pare · Desconfie · Confirme</p>
+  <p class="sub">Obrigado pela participação!</p>
+</section>
+
+<div class="nav" id="nav"></div>
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let atual = 0;
+  function mostrar(i) {
+    atual = Math.max(0, Math.min(slides.length - 1, i));
+    slides.forEach((s, k) => s.classList.toggle('ativo', k === atual));
+    document.getElementById('nav').textContent = (atual + 1) + ' / ' + slides.length + '  ·  ← → para navegar';
+  }
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'PageDown', ' '].includes(e.key)) mostrar(atual + 1);
+    if (['ArrowLeft', 'PageUp'].includes(e.key)) mostrar(atual - 1);
+  });
+  document.addEventListener('click', e => mostrar(atual + (e.clientX > innerWidth / 3 ? 1 : -1)));
+  mostrar(0);
+</script>
+</body>
+</html>
