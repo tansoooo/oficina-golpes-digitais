@@ -1,1 +1,10 @@
+participante,momento,q01,q02,q03,q04,q05,q06,q07,q08,q09,q10,confianca
+P01,PRE,c,a,c,b,c,a,b,b,a,c,4
+P02,PRE,c,c,d,b,d,a,a,b,b,a,4
+P03,PRE,a,c,b,b,d,c,c,b,a,a,4
+P04,PRE,a,b,a,c,a,b,c,d,a,d,5
+P01,POS,c,a,d,b,c,a,b,b,b,c,5
+P02,POS,c,a,d,b,c,a,b,b,b,c,5
+P03,POS,c,a,d,b,c,a,b,b,b,c,4
+P04,POS,c,a,d,b,c,a,b,b,b,c,3
 participante,q01,q02,q03,q04,q05,q06,q07,q08,q09,q10,confianca_antes,confianca_depois
